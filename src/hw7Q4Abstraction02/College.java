@@ -1,6 +1,6 @@
 package hw7Q4Abstraction02;
 
-public interface College {
+public interface College extends Hospital,University{
     default void dorm(){
 
     }
